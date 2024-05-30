@@ -14,7 +14,7 @@ const Gallery = () => {
             <div className="gallery-photo name-info">
                 <p className='font-cormor name'>Sarah Davy</p>
                 <p>Administrative Assistant</p>
-                <Link to={{}}> <button onClick={scrollToTop}>
+                <Link to='/contact'> <button onClick={scrollToTop}>
                     Contact-me
                     </button>
                     </Link>
@@ -30,7 +30,7 @@ const Gallery = () => {
             <div className="gallery-photo name-info">
                 <p className='font-cormor name'>Emily Smit</p>
                 <p>General Manger</p>
-                <Link to={{}}> <button onClick={scrollToTop}>
+                <Link to='/contact'> <button onClick={scrollToTop}>
                     Contact-me
                     </button>
                 </Link>
