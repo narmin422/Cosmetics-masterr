@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap');
+.container-of-404{
+    margin: 29px auto;
+    margin-top: -75px !important;
+}
+.all-404 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+.pudra-img{
+    width: 100px;
+    height: 100px;
+}
+.error-page {
+    text-align: center;
+    padding: 40px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+}
+
+.error-title {
+    font-size: 120px;
+    color: #ff6f61;
+    margin: 0;
+    font-weight: 800;
+}
+
+.error-subtitle {
+    font-size: 24px;
+    color: #333;
+    margin: 20px 0 10px;
+    font-weight: 600;
+}
+
+.error-description {
+    font-size: 16px;
+    color: #666;
+    margin: 10px 0 20px;
+}
+
+.error-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #ff6f61;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-weight: 600;
+}
+
+.error-button:hover {
+    background-color: #e55a5a;
+}

@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+.video-1{
+    position: relative;
+    top: -133px;
+    z-index: -16;
+}
+.slider-container {
+    width: 80%; 
+    margin: 0 auto; 
+  }
+  
+  .slick-slide img {
+    width: 100%; 
+    height: auto;
+  }
+  .slider-container {
+    width: 100%;}
+  .slick-arrow{
+    display: none;
+  }
+  .home-video {
+    margin-bottom: 20px;
+  }
+  
+  .video-player {
+    width: 100%;
+    height: auto;
+  }
+  
+  .mini-about {
+    padding: 20px;
+  }
+  
+  .about-content {
+    display: flex;
+    align-items: center;
+  }
+  
+  .image-container {
+    flex: 1;
+  }
+  
+  .image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .text-container {
+    display: block;
+    padding-left: 20px;
+  }
+  .w-40{
+    width: 50%;
+  }
+  .quote {
+    font-style: italic;
+    margin-bottom: 10px;
+  }
+  
+  .description {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  .w-80{
+    margin: 6rem auto;
+    width: 80%;
+  }
+  .quote{
+    color: #592B2A;
+    font-weight: bold;
+    font-size: 32px;
+  }
+  .font-cormor{
+    
+    font-family: "Cormorant Garamond", serif;
+  }
+  .mini-about{
+    background-size: contain;
+    background-position: center;
+    background-image: url(https://elementor-kits-02.nicdark.com/perfume-wordpress-elementor-kit/wp-content/uploads/sites/4/2024/01/bg-06.jpg);
+  }
+  .line img{
+    width: 100%;
+  }
+  .mini-b{ background-size: contain;
+    background-position: center;
+    background-image: url(https://elementor-kits-02.nicdark.com/perfume-wordpress-elementor-kit/wp-content/uploads/sites/4/2024/01/bg-06.jpg);
+ 
+    margin: 4rem auto;
+  }

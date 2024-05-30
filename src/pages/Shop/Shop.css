@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+.prod-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.prod-img {
+    height: 262px;
+    margin: 25px auto;
+}
+
+.product-card {
+    height: 424px;
+    width: 32%;
+    box-shadow: -5px 13px 20px 12px #adadad40;
+    text-align: center;
+    border: 1px solid #f1e5e5;
+    margin: 10px auto;
+}
+
+.font-cormor {
+    font-family: "Cormorant Garamond", serif;
+}
+
+.prod-name,
+.prod-name a {
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    margin: -17px 0 6px 0;
+    font-size: 23px;
+}
+
+.newprice {
+    color: #592B2A;
+    font-weight: 700;
+    margin-bottom: 0 !important;
+}
+
+.list {
+    width: 100%;
+    margin: 10px auto;
+    display: flex !important;
+    justify-content: space-between;
+    flex-wrap: wrap !important;
+}
+
+.add-buttons {
+    display: flex;
+    justify-content: space-around;
+    width: 67%;
+    margin: 5px auto;
+}
+
+.add {
+    color: white;
+    font-weight: 600;
+    margin: 1px 0 30px 0;
+    background-color: #592B2A;
+    border: 1px solid #592B2A;
+    transition: 0.5s;
+    font-size: 13px;
+    padding: 6px 8px;
+}
+
+.add:hover {
+    color: #592B2A;
+    background-color: white;
+}
+
+.detail.prod {
+    cursor: pointer;
+}
+
+.brand-list,
+.price-filter,
+.tag-list {
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.brand-title,
+.price-title,
+.tag-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.brand-items,
+.tag-items {
+    list-style-type: none;
+    padding: 0;
+}
+
+.brand-items li,
+.tag-items li {
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    text-align: center;
+}
+
+.brand-items li:hover,
+.brand-items li.active,
+.tag-items li:hover,
+.tag-items li.active {
+    background-color: #592B2A;
+    color: white;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.empty-wishlist {
+    color: brown;
+    padding: 30px 0px;
+    font-size: 32px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    width: 20%;
+    margin: 157px auto;
+}
+
+.shop-all {
+    margin: auto;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.shop-filter {
+    width: 25%;
+}
+
+.shop-element {
+    width: 75%;
+}
+
+.w-90 {
+    width: 90% !important;
+}
+
+.pagination-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.pagination .page-link {
+    color: #654321;
+}
+
+.pagination .page-item.active .page-link {
+    background-color: #654321;
+    border-color: #654321;
+    color: white;
+}
+
+.price-filter input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.price-filter button {
+    width: 100%;
+    padding: 10px;
+    background-color: #592B2A;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+    border: 1px solid #592B2A;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.price-filter button:hover {
+    background-color: white;
+    color: #592B2A;
+    border: 1px solid #592B2A;
+}
