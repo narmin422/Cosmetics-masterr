@@ -21,8 +21,8 @@ const About = () => {
   <p className='join-us'>
   Join us on this aromatic voyage, where every spray tells a story and every note resonates with the essence of beauty. Luxury, artistry, and the sublime world of perfumery converge to create an unforgettable experience for the senses.
   </p>
+
   
-    <button className='get-more-info'>Get More Info</button> 
 </div>
 <div className="about-1-img">
   <img src="https://elementor-kits-02.nicdark.com/perfume-wordpress-elementor-kit/wp-content/uploads/sites/4/2024/01/man-doing-shopping.jpg" alt="" />
